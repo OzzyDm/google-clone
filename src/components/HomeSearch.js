@@ -38,6 +38,7 @@ function HomeSearch() {
           onChange={(e) => setInput(e.target.value)}
           value={input}
           className="flex-grow focus:outline-none"
+          placeholder="Search Google or type a URL"
         />
         <BsFillMicFill className="text-lg" />
       </form>
